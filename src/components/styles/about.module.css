@@ -1,0 +1,93 @@
+:root {
+  --main: #ffffff;
+  --sub: #000035;
+  --text: #000000;
+}
+
+.main {
+  width: 90%;
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: left;
+  margin: auto;
+  background-color: var(--main);
+  box-sizing: border-box;
+  padding: 50px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+.main>img{
+  width: 10%;
+
+}
+.r {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.r>img{
+  width: 60%;
+  margin: auto;
+}
+.l {
+  width: 40%;
+  background-color: var(--sub);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+.l img {
+  width: 100%;
+  margin: -25px 25px 25px -25px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+.r h1 {
+  width: 90%;
+  color: var(--sub);
+  border-bottom: 3px solid var(--sub);
+}
+.r p{
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: .5px;
+}
+@media screen and (min-width: 720px) and (max-width: 1200px){
+  .l{
+      width: 35%;
+  }
+  .r{
+      width: 35%;
+  }
+  .main{
+      
+      width: 90%;
+  }
+}
+@media screen and (min-width: 540px) and (max-width: 719px){
+  .l{
+      display: none;
+  }
+  .r{
+      width: 70%;
+  }
+  .main{
+      
+      width: 90%;
+  }
+}
+@media screen and (min-width: 200px) and (max-width: 539px){
+  .l{
+      display: none;
+  }
+  .r{
+      width: 95%;
+  }
+  .main{
+      
+      width: 90%;
+  }
+}
+

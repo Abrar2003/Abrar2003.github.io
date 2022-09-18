@@ -1,0 +1,75 @@
+:root{
+    --main: #FFFFFF;
+    --sub: #000035;
+    --sub2: #000000;
+}
+
+.nav{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    color: var(--main);
+    padding: 0% 5%;
+    background-color: var(--sub);
+    margin-bottom: 30px;
+}
+.navR{
+    display: flex;
+    width: 40%;
+    gap: 20px;
+    justify-content: space-evenly;
+}
+.navR p{
+    background-color: var(--main);
+    border-radius: 20px;
+    padding: .2rem .8rem;
+    color: var(--sub);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+}
+@media screen and (min-width: 720px) and (max-width: 1200px){
+    .nav{
+        width: 90%;
+    }
+}
+@media screen and (min-width: 540px) and (max-width: 719px){
+    .nav{
+        width: 90%;
+    }
+    .nav h1{
+        font-size: 25px;
+    }
+    .navR{
+        width: 80%;
+        gap: 20px;
+    }
+    .navR p{
+        width: 18%;
+        font-size: 14px;
+        padding: 0 .4rem;
+    }
+}
+@media screen and (min-width: 200px) and (max-width: 539px){
+    .nav{
+        width: 100%;
+    }
+    .nav p{
+        display: none;
+    }
+    .navR{
+        width: 60%;
+        display: flex;
+        gap: 20px;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    .nav p:last-child, .nav p:nth-child(3){
+        display: block;
+        width: 30%;
+    }
+}

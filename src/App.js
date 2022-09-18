@@ -1,11 +1,17 @@
 import logo from './logo.svg';
 import './App.css';
+import Home from './components/Home';
+import Nav from './components/Nav';
+import About from './components/About';
+import TechSkills from './components/TechSkills';
 
 function App() {
   return (
     <div className="App">
-      <h1>My Portfolio</h1>
-      <h2>Abrar</h2>
+      <Nav/>
+      <Home/>
+      <About/>
+      <TechSkills/>
     </div>
   );
 }
