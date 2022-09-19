@@ -1,10 +1,12 @@
 {
   "files": {
-    "main.css": "/static/css/main.cdd2f8dc.css",
-    "main.js": "/static/js/main.414bf491.js",
+    "main.css": "/static/css/main.8af1e5f3.css",
+    "main.js": "/static/js/main.3b0ff04c.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/chakra-ui.png": "/static/media/chakra-ui.e4cb472ccaabf22affba.png",
     "static/media/contact-me.jpg": "/static/media/contact-me.681f87ae7173b650600e.jpg",
+    "static/media/mytheres.jpg": "/static/media/mytheres.edd850b197194d187a6e.jpg",
+    "static/media/Anthropologie.jpg": "/static/media/Anthropologie.ea0b8f8a8e5cef36c621.jpg",
     "static/media/css.png": "/static/media/css.5f2b9169c48263cf4760.png",
     "static/media/rct.png": "/static/media/rct.f3e576ba08e6be927148.png",
     "static/media/node1.png": "/static/media/node1.02405bd0ada23f5a5f85.png",
@@ -15,12 +17,12 @@
     "static/media/revicons.woff": "/static/media/revicons.e8746a624ed098489406.woff",
     "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/index.html",
-    "main.cdd2f8dc.css.map": "/static/css/main.cdd2f8dc.css.map",
-    "main.414bf491.js.map": "/static/js/main.414bf491.js.map",
+    "main.8af1e5f3.css.map": "/static/css/main.8af1e5f3.css.map",
+    "main.3b0ff04c.js.map": "/static/js/main.3b0ff04c.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.cdd2f8dc.css",
-    "static/js/main.414bf491.js"
+    "static/css/main.8af1e5f3.css",
+    "static/js/main.3b0ff04c.js"
   ]
 }
