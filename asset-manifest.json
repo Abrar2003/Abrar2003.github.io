@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/static/css/main.7702c597.css",
-    "main.js": "/static/js/main.cde7fc6e.js",
+    "main.css": "/static/css/main.c3ba9eb3.css",
+    "main.js": "/static/js/main.0210b886.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
+    "static/media/anth.jpg": "/static/media/anth.4fef9640089015f76ee1.jpg",
     "static/media/chakra-ui.png": "/static/media/chakra-ui.e4cb472ccaabf22affba.png",
+    "static/media/mytheresa.jpg": "/static/media/mytheresa.d6005442931ffb4427e8.jpg",
     "static/media/contact-me.jpg": "/static/media/contact-me.681f87ae7173b650600e.jpg",
-    "static/media/Abrar_Aalam_resume.pdf": "/static/media/Abrar_Aalam_resume.273102391ed1c57e6877.pdf",
-    "static/media/mytheres.jpg": "/static/media/mytheres.edd850b197194d187a6e.jpg",
-    "static/media/Anthropologie.jpg": "/static/media/Anthropologie.ea0b8f8a8e5cef36c621.jpg",
+    "static/media/Abrar_Aalam_resume.pdf": "/static/media/Abrar_Aalam_resume.f63c6cebfece339d0cb8.pdf",
     "static/media/css.png": "/static/media/css.5f2b9169c48263cf4760.png",
     "static/media/rct.png": "/static/media/rct.f3e576ba08e6be927148.png",
     "static/media/node1.png": "/static/media/node1.02405bd0ada23f5a5f85.png",
@@ -18,12 +18,12 @@
     "static/media/revicons.woff": "/static/media/revicons.e8746a624ed098489406.woff",
     "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/index.html",
-    "main.7702c597.css.map": "/static/css/main.7702c597.css.map",
-    "main.cde7fc6e.js.map": "/static/js/main.cde7fc6e.js.map",
+    "main.c3ba9eb3.css.map": "/static/css/main.c3ba9eb3.css.map",
+    "main.0210b886.js.map": "/static/js/main.0210b886.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7702c597.css",
-    "static/js/main.cde7fc6e.js"
+    "static/css/main.c3ba9eb3.css",
+    "static/js/main.0210b886.js"
   ]
 }
