@@ -45,7 +45,7 @@ function TechSkills(){
                         <div className="skill-bx">
                             <h1>Tech Stacks</h1>
                             <p></p>
-                            <Carousel responsive={responsive} showDots={true} arrows={false} swipeable={true} partialVisbile={false}
+                            <Carousel responsive={responsive} showDots={true} arrows={true} swipeable={true} partialVisbile={false}
                              autoPlay={true} autoPlaySpeed={3000}
                               infinite={true}
                                className="owl-carousel owl-theme skill-slider">

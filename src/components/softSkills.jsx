@@ -1,13 +1,13 @@
-import meter1 from "./Assets/Home/empathy.png";
-import meter2 from "./Assets/Home/time.png";
-import meter3 from "./Assets/Home/adapt.png";
-import meter4 from "./Assets/Home/daily-tasks.png";
-import meter5 from "./Assets/Home/support.png";
+import empathy from "./Assets/Home/empathy.png";
+import time from "./Assets/Home/time.png";
+import adapt from "./Assets/Home/adapt.png";
+import account from "./Assets/Home/daily-tasks.png";
+import support from "./Assets/Home/support.png";
 // import meter6 from "./Assets/Home/node1.png";
-import meter7 from "./Assets/Home/solution.png";
-import meter8 from "./Assets/Home/open-mind.png";
-import meter9 from "./Assets/Home/telepathy.png";
-import meter10 from "./Assets/Home/time-management.png"
+import solution from "./Assets/Home/solution.png";
+import openmind from "./Assets/Home/open-mind.png";
+import telepathy from "./Assets/Home/telepathy.png";
+import TimeManage from "./Assets/Home/time-management.png"
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 
@@ -45,44 +45,44 @@ function SoftSkills(){
                         <div className="skill-bx">
                             <h1>Soft Skills</h1>
                             <p></p>
-                            <Carousel responsive={responsive} showDots={true} arrows={false} swipeable={true} partialVisbile={false}
+                            <Carousel responsive={responsive} showDots={true} arrows={true} swipeable={true} partialVisbile={false}
                              autoPlay={true} autoPlaySpeed={3000}
                               infinite={true}
                                className="owl-carousel owl-theme skill-slider">
                                 <div className="item">
-                                    <img src={meter1} alt="Image" />
+                                    <img src={empathy} alt="Image" />
                                     <h5>Empathetic</h5>
                                 </div>
                                 <div className="item">
-                                    <img src={meter2} alt="Image" />
+                                    <img src={time} alt="Image" />
                                     <h5>Time-management</h5>
                                 </div>
                                 <div className="item">
-                                    <img src={meter9} alt="Image" />
+                                    <img src={telepathy} alt="Image" />
                                     <h5>Self-Awareness</h5>
                                 </div>
                                 <div className="item">
-                                    <img src={meter3} alt="Image" />
+                                    <img src={adapt} alt="Image" />
                                     <h5>Adaptive</h5>
                                 </div>
                                 <div className="item">
-                                    <img src={meter10} alt="Image" />
+                                    <img src={TimeManage} alt="Image" />
                                     <h5>Patient</h5>
                                 </div>
                                 <div className="item">
-                                    <img src={meter4} alt="Image" />
-                                    <h5>Acountablity</h5>
+                                    <img src={account} alt="Image" />
+                                    <h5>Accountablity</h5>
                                 </div>
                                 <div className="item">
-                                    <img src={meter5} alt="Image" />
+                                    <img src={support} alt="Image" />
                                     <h5>Collaboration</h5>
                                 </div>
                                 <div className="item">
-                                    <img src={meter8} alt="Image" />
+                                    <img src={openmind} alt="Image" />
                                     <h5>Open-minded</h5>
                                 </div>
                                 <div className="item">
-                                    <img src={meter7} alt="Image" />
+                                    <img src={solution} alt="Image" />
                                     <h5>Problem-Solving</h5>
                                 </div>
                             </Carousel>
