@@ -1,13 +1,13 @@
-import meter1 from "./Assets/Home/html.png";
-import meter2 from "./Assets/Home/css.png";
-import meter3 from "./Assets/Home/js2.png";
-import meter4 from "./Assets/Home/rct.png";
-import meter5 from "./Assets/Home/mongodb.png";
-import meter6 from "./Assets/Home/node1.png";
-import meter7 from "./Assets/Home/git.png";
-import meter8 from "./Assets/Home/redux.png";
-import meter9 from "./Assets/Home/chakra-ui.png";
-import meter10 from "./Assets/Home/structure-file.png"
+import html from "./Assets/Home/html.png";
+import css from "./Assets/Home/css.png";
+import JS from "./Assets/Home/java-script.png";
+import react from "./Assets/Home/rct.png";
+import mongo from "./Assets/Home/mongodb.png";
+import node from "./Assets/Home/node1.png";
+import git from "./Assets/Home/git.png";
+import redux from "./Assets/Home/redux.png";
+import chakra from "./Assets/Home/chakra-ui.png";
+import dsa from "./Assets/Home/structure-file.png"
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 
@@ -50,43 +50,43 @@ function TechSkills(){
                               infinite={true}
                                className="owl-carousel owl-theme skill-slider">
                                 <div className="item">
-                                    <img src={meter1} alt="Image" />
+                                    <img src={html} alt="Image" />
                                     <h5>HTML</h5>
                                 </div>
                                 <div className="item">
-                                    <img src={meter2} alt="Image" />
+                                    <img src={css} alt="Image" />
                                     <h5>CSS</h5>
                                 </div>
                                 <div className="item">
-                                    <img src={meter4} alt="Image" />
+                                    <img src={react} alt="Image" />
                                     <h5>REACT JS</h5>
                                 </div>
                                 <div className="item">
-                                    <img src={meter3} alt="Image" />
+                                    <img src={JS} alt="Image" />
                                     <h5>JAVASCRIPT</h5>
                                 </div>
                                 <div className="item">
-                                    <img src={meter5} alt="Image" />
+                                    <img src={mongo} alt="Image" />
                                     <h5>Mongo DB</h5>
                                 </div>
                                 <div className="item">
-                                    <img src={meter6} alt="Image" />
+                                    <img src={node} alt="Image" />
                                     <h5>Node JS</h5>
                                 </div>
                                 <div className="item">
-                                    <img src={meter7} alt="Image" />
+                                    <img src={git} alt="Image" />
                                     <h5>Git</h5>
                                 </div>
                                 <div className="item">
-                                    <img src={meter8} alt="Image" />
+                                    <img src={redux} alt="Image" />
                                     <h5>Redux</h5>
                                 </div>
                                 <div className="item">
-                                    <img src={meter9} alt="" />
+                                    <img src={chakra} alt="" />
                                     <h5>Chakra-UI</h5>
                                 </div>
                                 <div className="item">
-                                    <img src={meter10} alt="" />
+                                    <img src={dsa} alt="" />
                                     <h5>Data structures & Algorithms</h5>
                                 </div>
                             </Carousel>
