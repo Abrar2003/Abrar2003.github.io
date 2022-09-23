@@ -1,4 +1,5 @@
 import { Text, Box, Image, Flex, Spacer } from "@chakra-ui/react";
+import res from "./Assets/Home/Abrar_Aalam_resume.pdf"
 import style from "./styles/home.module.css"
 
 function Home() {
@@ -12,9 +13,12 @@ function Home() {
         <h3>Welcome To My Portfolio!</h3>
         <h3>I am a Full Stack Web Developer</h3>
         <button>CONTACT ME</button>
-        <button>RESUME 
+        <a href={res} download>
+          <button>RESUME 
           <img className={style.icon} src="https://cdn.iconscout.com/icon/free/png-64/download-1485697-1258918.png" alt="icon" />
         </button>
+        </a>
+        
       </div>
       <div className={style.mainRight}>
         <img width="100%" src="https://media-exp1.licdn.com/dms/image/C4D03AQH0XpXQxmo-eg/profile-displayphoto-shrink_200_200/0/1654280036989?e=1668643200&v=beta&t=Tc-4P1Xy3SY-bV9UnCpIY4JJfqIw5k-Uhhl7OZEaSag" alt="Abrar" />

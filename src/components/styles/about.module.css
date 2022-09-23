@@ -5,8 +5,8 @@
 }
 
 .main {
-  width: 90%;
-  position: relative;
+  width: 80%;
+  /* position: relative; */
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -45,7 +45,7 @@
     rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
 }
 .r h1 {
-  width: 90%;
+  width: 80%;
   color: var(--sub);
   border-bottom: 3px solid var(--sub);
 }
@@ -87,7 +87,7 @@
   }
   .main{
       
-      width: 90%;
+      width: 100%;
   }
 }
 

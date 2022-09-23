@@ -1,6 +1,9 @@
 import style from "./styles/nav.module.css"
 
 function Nav(){
+    const scroll = ()=>{
+        
+    }
     return(
         <div className={style.nav}>
             <div>

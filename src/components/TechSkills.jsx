@@ -43,7 +43,7 @@ function TechSkills(){
                 <div className="row">
                     <div className="col-12">
                         <div className="skill-bx">
-                            <h1>Technical Skills</h1>
+                            <h1>Tech Stacks</h1>
                             <p></p>
                             <Carousel responsive={responsive} showDots={true} arrows={false} swipeable={true} partialVisbile={false}
                              autoPlay={true} autoPlaySpeed={3000}

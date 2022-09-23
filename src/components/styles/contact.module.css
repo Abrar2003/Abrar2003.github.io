@@ -1,0 +1,147 @@
+:root {
+    --main: #ffffff;
+    --sub: #000035;
+    --text: #000000;
+  }
+  
+
+.main{
+    width: 27%;
+    background-color: var(--sub);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+.master h3{
+    width: 40%;
+    border-bottom: 3px solid var(--sub);
+    color: var(--sub);
+    text-align: left;
+}
+.master{
+    width: 100%;
+    background-color: var(--main);
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 3rem 10%;
+    border-top: 2.5px solid var(--sub);
+    margin-top: 30px;
+}
+.img{
+    width: 30%;
+    margin-top: -3rem;
+}
+.img>img{
+    width: 100%;
+}
+form {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 100%;
+    font-size: 16px;
+    box-sizing: border-box;
+    padding: 1rem 2rem;
+    background-color: var(--main);
+    margin: 20px 20px -20px -20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+form>input {
+    width: 90%;
+    height: 35px;
+    padding: 7px;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid rgb(220, 220, 220);
+}
+input :focus{
+    border: 2px solid rgba(0, 206, 158, 1);
+}
+textarea {
+    max-width: 100%;
+    min-width: 100%;
+    width: 100%;
+    max-height: 100px;
+    min-height: 100px;
+    padding: 7px;
+    outline: none;
+    border: 1px solid rgb(220, 220, 220);
+}
+textarea:focus{
+    border: 2px solid rgba(0, 206, 158, 1);
+}
+label {
+    margin-top: 1rem;
+}
+input[type="submit"] {
+    cursor: pointer;
+    background: #000035;
+    display: block;
+    margin: auto;
+    margin-top: 2rem;
+    color: white;
+    border: none;
+}
+.details{
+    text-align: left;
+    width: 25%;
+    height: max-content;
+    background-color: var(--main);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    padding: 2rem;
+    box-sizing: border-box;
+}
+
+.details>div>a{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+    color: #000000;
+    font-size: 17px;
+}
+
+
+.details>div>a>p{
+    width: max-content;
+}
+@media screen and (min-width: 950px) and (max-width: 1200px){
+  .img{
+    display: none;
+  }
+  .details{
+    width: 40%;
+  }
+  .main{
+    width: 40%;
+  }
+}
+@media screen and (min-width: 740px) and (max-width: 949px){
+    .img{
+        display: none;
+      }
+      .details{
+        width: 45%;
+      }
+      .main{
+        width: 45%;
+      }
+}
+@media screen and (min-width: 300px) and (max-width: 739px){
+    .img{
+        display: none;
+      }
+      .details{
+        width: 90%;
+      }
+      .main{
+        width: 90%;
+        margin-left: 20px;
+      }
+      .master{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+      }
+
+}
