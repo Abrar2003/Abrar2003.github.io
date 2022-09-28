@@ -36,7 +36,7 @@ const Contact = () => {
   };
 
   return (
-    <div className={style.master}>
+    <div className={style.master} id="contact">
       <div className={style.img}>
         <img src={contact} alt="" />
       </div>

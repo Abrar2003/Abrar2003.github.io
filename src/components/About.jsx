@@ -2,7 +2,7 @@ import style from "./styles/about.module.css"
 
 function About() {
   return (
-    <div className={style.main}>
+    <div className={style.main} id="about">
       
       <div className={style.l}>
         <img

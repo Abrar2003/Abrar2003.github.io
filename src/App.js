@@ -8,28 +8,20 @@ import Contact from './components/Contact';
 import SoftSkills from './components/softSkills';
 import Projects from './components/Projects';
 import { useRef } from 'react';
+import Github from './components/Github';
 
 function App() {
-  const home = useRef();
-  const about = useRef();
-  const tech = useRef();
-  const soft = useRef();
-  const projects = useRef();
-  const contact = useRef();
-
-  // const handelClick = (x) => {
-    
-  // }
 
   return (
     <div className="App">
       <Nav/>
-      <Home ref={home} />
-      <About ref={about} />
-      <TechSkills ref={tech} />
-      <SoftSkills ref={soft} />
-      <Projects ref={projects} />
-      <Contact ref={contact} />
+      <Home />
+      <About />
+      <TechSkills />
+      <SoftSkills />
+      <Github />
+      <Projects />
+      <Contact />
     </div>
   );
 }

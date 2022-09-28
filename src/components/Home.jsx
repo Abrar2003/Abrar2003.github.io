@@ -4,7 +4,7 @@ import style from "./styles/home.module.css"
 
 function Home() {
   return (
-    <div className={style.main}>
+    <div className={style.main} id="home">
       <div className={style.small}>
         <img width="100%" src="https://media-exp1.licdn.com/dms/image/C4D03AQH0XpXQxmo-eg/profile-displayphoto-shrink_200_200/0/1654280036989?e=1668643200&v=beta&t=Tc-4P1Xy3SY-bV9UnCpIY4JJfqIw5k-Uhhl7OZEaSag" alt="Abrar" />
       </div>

@@ -5,7 +5,7 @@ import git from "./Assets/Home/github.png"
 
 export default function Projects() {
   return (
-    <div className={style.main}>
+    <div className={style.main} id="projects">
         <h1>Projects</h1>
         <div className={style.sub1}>
             <img className={style.pr} src={myt} alt="" />

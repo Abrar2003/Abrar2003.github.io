@@ -38,7 +38,7 @@ function TechSkills(){
     
       return (
         <section className="skill" id="skills" >
-            <div className="container">
+            <div className="container" id="skill">
                 
                 <div className="row">
                     <div className="col-12">
