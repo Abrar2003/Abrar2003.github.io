@@ -7,7 +7,8 @@ import node from "./Assets/Home/node1.png";
 import git from "./Assets/Home/git.png";
 import redux from "./Assets/Home/redux.png";
 import chakra from "./Assets/Home/chakra-ui.png";
-import dsa from "./Assets/Home/structure-file.png"
+import dsa from "./Assets/Home/structure-file.png";
+import exp from "./Assets/Home/express.png";
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 
@@ -88,6 +89,10 @@ function TechSkills(){
                                 <div className="item">
                                     <img src={dsa} alt="" />
                                     <h5>Data structures & Algorithms</h5>
+                                </div>
+                                <div className="item">
+                                    <img src={exp} alt="" />
+                                    <h5>Express JS</h5>
                                 </div>
                             </Carousel>
                         </div>

@@ -1,12 +1,13 @@
 import { Text, Box, Image, Flex, Spacer } from "@chakra-ui/react";
-import res from "./Assets/Home/Abrar_Aalam_resume.pdf"
+import res from "./Assets/Home/Abrar-Aalam-resume.pdf";
+import profile from "./Assets/Home/profile.jpeg";
 import style from "./styles/home.module.css"
 
 function Home() {
   return (
     <div className={style.main} id="home">
       <div className={style.small}>
-        <img width="100%" src="https://media-exp1.licdn.com/dms/image/C4D03AQH0XpXQxmo-eg/profile-displayphoto-shrink_200_200/0/1654280036989?e=1668643200&v=beta&t=Tc-4P1Xy3SY-bV9UnCpIY4JJfqIw5k-Uhhl7OZEaSag" alt="Abrar" />
+        <img width="100%" src={profile} alt="Abrar" />
       </div>
       <div className={style.mainLeft}>
         <h2>Hi, I'm Abrar</h2>

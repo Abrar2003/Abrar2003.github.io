@@ -18,6 +18,7 @@
     margin-bottom: 30px;
     position: sticky;
     top: 0px;
+    z-index: 100;
 }
 .nav h1{
     width: auto;

@@ -15,6 +15,7 @@
     "aos": "^2.3.4",
     "deploy": "^1.0.3",
     "framer-motion": "^7.3.5",
+    "gh-pages": "^4.0.0",
     "github-calendar": "^2.3.1",
     "gsap": "^3.11.1",
     "react": "^18.2.0",
