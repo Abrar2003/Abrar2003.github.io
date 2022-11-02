@@ -22,7 +22,7 @@ function Home() {
         
       </div>
       <div className={style.mainRight}>
-        <img width="100%" src="https://media-exp1.licdn.com/dms/image/C4D03AQH0XpXQxmo-eg/profile-displayphoto-shrink_200_200/0/1654280036989?e=1668643200&v=beta&t=Tc-4P1Xy3SY-bV9UnCpIY4JJfqIw5k-Uhhl7OZEaSag" alt="Abrar" />
+        <img width="100%" src={profile} alt="Abrar" />
       </div>
     </div>
   );

@@ -71,6 +71,7 @@
     
     .nav h1{
         font-size: 25px;
+        display: none;
     }
     .nav p{
         display: none;
