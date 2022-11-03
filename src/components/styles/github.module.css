@@ -27,5 +27,53 @@
     padding: 2rem;
     border-radius: 20px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
-
 }
+.stats{
+    display: flex;
+    justify-content: flex-start;
+    text-align: center;
+    flex-wrap: wrap;
+}
+.stats>div{
+    width: 200px;
+    font-size: 20px;
+    font-weight: 500;
+    margin: auto;
+}
+.stats>div>h1{
+    text-align: center;
+    margin: auto;
+    border: none;
+}
+.gitStats{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+.gitStats > img{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+@media screen and (min-width: 950px) and (max-width: 1200px){
+    .gitStats{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        margin-top: 50px;
+    }
+  }
+  @media screen and (min-width: 740px) and (max-width: 949px){
+    .gitStats{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        margin-top: 50px;
+    }
+  }
+  @media screen and (min-width: 300px) and (max-width: 739px){
+    .gitStats{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        margin-top: 50px;
+    }
+  }
