@@ -29,7 +29,7 @@ export default function Github() {
         <GitHubCalendar
           username="abrar2003"
           year={new Date().getFullYear()}
-          fontSize={16}
+          fontSize={12}
           blockSize={15}
           blockMargin={5}
         />

@@ -9,6 +9,10 @@ import redux from "./Assets/Home/redux.png";
 import chakra from "./Assets/Home/chakra-ui.png";
 import dsa from "./Assets/Home/structure-file.png";
 import exp from "./Assets/Home/express.png";
+import aws from "./Assets/Home/aws.png";
+import nextjs from "./Assets/Home/nextjs.png";
+import redis from "./Assets/Home/redis.png";
+
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 
@@ -93,6 +97,18 @@ function TechSkills(){
                                 <div className="item">
                                     <img src={exp} alt="" />
                                     <h5>Express JS</h5>
+                                </div>
+                                <div className="item">
+                                    <img src={nextjs} alt="" />
+                                    <h5>Next JS</h5>
+                                </div>
+                                <div className="item">
+                                    <img src={redis} alt="" />
+                                    <h5>Redis</h5>
+                                </div>
+                                <div className="item">
+                                    <img src={aws} alt="" />
+                                    <h5>AWS</h5>
                                 </div>
                             </Carousel>
                         </div>

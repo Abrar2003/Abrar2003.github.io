@@ -11,7 +11,9 @@ import mongo from "./Assets/Home/mongodb.png";
 import html from "./Assets/Home/html.png";
 import link from "./Assets/Home/export.png";
 import express from "./Assets/Home/express.png";
-import rdx from "./Assets/Home/redux.png"
+import rdx from "./Assets/Home/redux.png";
+import nxt from "./Assets/Home/nextjs.png"
+import hb from "./Assets/Home/heavens.jpg"
 
 //STYLES
 import style from "./styles/projects.module.css";
@@ -41,9 +43,46 @@ export default function Projects() {
     { name: "JavaScript", img: js },
     { name: "CSS", img: css },
   ];
+  const tech4 = [
+    { name: "Next Js", img: nxt },
+    { name: "MongoDB", img: mongo },
+    { name: "Node Js", img: node },
+    { name: "Express Js", img: express },
+    { name: "Chakra-UI", img: Chakra },
+    { name: "HTML", img: html },
+    { name: "JavaScript", img: js },
+    { name: "CSS", img: css }
+  ]
   return (
     <div className={style.main} id="projects">
       <h1>Projects</h1>
+      <div className={style.sub}>
+                <img className={style.pr} src={hb} alt="" />
+            <div>
+            <h2>Heaven's Basket</h2>
+            <p>
+                It is a E-commerce website where
+                you can buy food products and fresh vegitables, 
+                And you can also buy any non-veg products.
+                 Built by a team of 5 members in 5 days
+            </p>
+            <a href="https://github.com/Abrar2003/annoyed-spark-4097">
+                <img src={git} alt="" />
+            </a>
+            <a href="https://annoyed-spark-4097-6yv7.vercel.app/">
+                <img src={link} alt="" />
+            </a>
+            <h4>Tech Stack</h4>
+            <div className={style.techmain}>
+                {tech4.map((item) => (
+                <div className={style.tech}>
+                    <img src={item.img} alt="" />
+                    <p>{item.name}</p>
+                </div>
+                ))}
+            </div>
+            </div>
+      </div>
       <div className={style.sub}>
             <div>
             <h2>Myhours.com (CLONE)</h2>

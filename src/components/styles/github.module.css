@@ -20,8 +20,8 @@
     text-align: left;
 }
 .calendar{
-    width: fit-content;
-    /* margin: auto; */
+    width: 80%;
+    margin: auto;
     background-color: var(--main);
     color: var(--sub);
     padding: 2rem;
