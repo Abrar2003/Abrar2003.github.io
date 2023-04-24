@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.2fab2746.css",
-    "main.js": "/static/js/main.df5f77e3.js",
+    "main.css": "/static/css/main.21d16170.css",
+    "main.js": "/static/js/main.cbc25c15.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/anth.jpg": "/static/media/anth.4fef9640089015f76ee1.jpg",
     "static/media/heavens.jpg": "/static/media/heavens.a69306cf65a934cfc05f.jpg",
@@ -10,7 +10,7 @@
     "static/media/myhours.jpg": "/static/media/myhours.cd3f282785404099ca80.jpg",
     "static/media/contact-me.jpg": "/static/media/contact-me.681f87ae7173b650600e.jpg",
     "static/media/redis.png": "/static/media/redis.6141139d291bed8ce6c5.png",
-    "static/media/Abrar-Aalam-resume.pdf": "/static/media/Abrar-Aalam-resume.b0990fe030e712bc1198.pdf",
+    "static/media/Abrar-Aalam-resume.pdf": "/static/media/Abrar-Aalam-resume.dfa9e8b7652d75672f4f.pdf",
     "static/media/aws.png": "/static/media/aws.89e8f91357c6ef5efd32.png",
     "static/media/css.png": "/static/media/css.5f2b9169c48263cf4760.png",
     "static/media/rct.png": "/static/media/rct.f3e576ba08e6be927148.png",
@@ -23,12 +23,12 @@
     "static/media/revicons.woff": "/static/media/revicons.e8746a624ed098489406.woff",
     "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/index.html",
-    "main.2fab2746.css.map": "/static/css/main.2fab2746.css.map",
-    "main.df5f77e3.js.map": "/static/js/main.df5f77e3.js.map",
+    "main.21d16170.css.map": "/static/css/main.21d16170.css.map",
+    "main.cbc25c15.js.map": "/static/js/main.cbc25c15.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2fab2746.css",
-    "static/js/main.df5f77e3.js"
+    "static/css/main.21d16170.css",
+    "static/js/main.cbc25c15.js"
   ]
 }
