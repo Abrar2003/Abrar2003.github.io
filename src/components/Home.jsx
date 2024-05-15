@@ -1,7 +1,7 @@
-import { Text, Box, Image, Flex, Spacer } from "@chakra-ui/react";
 import res from "./Assets/Home/Abrar-Aalam-resume.pdf";
 import profile from "./Assets/Home/profile.jpeg";
 import style from "./styles/home.module.css"
+import { Link } from "react-scroll";
 
 function Home() {
   return (
@@ -13,7 +13,9 @@ function Home() {
         <h2>Hi, I'm Abrar</h2>
         <h3>Welcome To My Portfolio!</h3>
         <h3>I am a Full Stack Web Developer</h3>
-        <button>CONTACT ME</button>
+        <button><Link to="contact" spy={true} smooth={true} offset={-50} duration={500}>
+          CONTACT ME
+        </Link></button>
         <a href={res} download>
           <button>RESUME 
           <img className={style.icon} src="https://cdn.iconscout.com/icon/free/png-64/download-1485697-1258918.png" alt="icon" />

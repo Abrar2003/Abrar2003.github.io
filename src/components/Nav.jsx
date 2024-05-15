@@ -5,7 +5,6 @@ import res from "./Assets/Home/Abrar-Aalam-resume.pdf";
 import { Link } from "react-scroll";
 
 function Nav() {
-  const scroll = () => {};
   return (
     <div className={style.nav}>
       <div>
