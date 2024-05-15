@@ -66,10 +66,10 @@ export default function Projects() {
                 And you can also buy any non-veg products.
                  Built by a team of 5 members in 5 days
             </p>
-            <a href="https://github.com/Abrar2003/annoyed-spark-4097">
+            <a href="https://github.com/Abrar2003/annoyed-spark-4097" target="_blank">
                 <img src={git} alt="" />
             </a>
-            <a href="https://annoyed-spark-4097-6yv7.vercel.app/">
+            <a href="https://annoyed-spark-4097-6yv7.vercel.app/" target="_blank">
                 <img src={link} alt="" />
             </a>
             <h4>Tech Stack</h4>
@@ -91,10 +91,10 @@ export default function Projects() {
                 you can manage projects, manage teams, and track your time.
                 Collaborative project. Built by a team of 5 members in 4 days
             </p>
-            <a href="https://github.com/Thannzz/Myhours-Clone">
+            <a href="https://github.com/Thannzz/Myhours-Clone" target="_blank">
                 <img src={git} alt="" />
             </a>
-            <a href="https://myhoursclone.vercel.app/">
+            <a href="https://myhoursclone.vercel.app/" target="_blank">
                 <img src={link} alt="" />
             </a>
             <h4>Tech Stack</h4>
@@ -120,10 +120,10 @@ export default function Projects() {
                 the functionalities <br /> It was an individual project and it took
                 me 4 days to complete.
             </p>
-            <a href="https://github.com/Abrar2003/homely-wilderness-2173/tree/main/homely-wilderness-2173">
+            <a href="https://github.com/Abrar2003/homely-wilderness-2173/tree/main/homely-wilderness-2173" target="_blank">
                 <img src={git} alt="" />
             </a>
-            <a href="https://homely-wilderness-2173-homely-wilderness-2173-a334.vercel.app/">
+            <a href="https://homely-wilderness-2173-homely-wilderness-2173-a334.vercel.app/" target="_blank">
                 <img src={link} alt="" />
             </a>
             <h4>Tech Stack</h4>
@@ -148,10 +148,10 @@ export default function Projects() {
                 I was the Team-lead of my team and we won Power-project award from
                 Masai School.
             </p>
-            <a href="https://github.com/Abrar2003/Anthropologie-Project">
+            <a href="https://github.com/Abrar2003/Anthropologie-Project" target="_blank">
                 <img src={git} alt="" />
             </a>
-            <a href="https://anthropologie-project-cv7a.vercel.app/">
+            <a href="https://anthropologie-project-cv7a.vercel.app/" target="_blank">
                 <img src={link} alt="" />
             </a>
             <h4>Tech Stack</h4>
