@@ -13,10 +13,7 @@ function About() {
       <div className={style.r}>
         <h1>About Me</h1>
         <p>
-          Highly competent Full Stack developer with a good knowledge of web development and a
-           Problem-Solving mindset. With strong Work-Ethics and Good communication skills,
-          Eager to learn new thing and looking for exciting opportunity in a challenging environment.
-        </p>
+          Highly competent Full Stack developer with a strong knowledge of web development and a problem-solving mindset. Possessing strong work ethics and good communication skills, I am eager to learn new things and seeking exciting opportunities in a challenging environment.        </p>
         <img src="https://thumbs.dreamstime.com/b/vector-portable-computer-keyboard-black-white-icon-lineart-89390511.jpg" alt="" />
       </div>
     </div>
